@@ -36,8 +36,6 @@ Crie e ative um ambiente virtual, se necessário, e instale as dependências:
 - ** GettAll: http://localhost:5000/cotacoes
 - ** GettEspecífico: http://localhost:5000/cotacoes/<moeda>
 
-
-- 
 ```bash
 pip install -r requirements.txt
 
