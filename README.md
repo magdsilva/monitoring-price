@@ -1,6 +1,8 @@
 # Monitor de Cotações
 
 Este repositório contém um sistema de monitoramento de cotações de moedas e ações utilizando Flask e Selenium. O aplicativo busca cotações em tempo real de ativos financeiros e expõe essas informações por meio de uma API RESTful.
+Funcionalidade feita apenas com intuito didático, mostrando a integração de uma consulta com o crawler e web scraping + API.
+Fiquem a vontade para contribuir e fazer testes.
 
 ## Funcionalidades
 
@@ -26,5 +28,16 @@ Certifique-se de ter as seguintes dependências instaladas:
 
 Crie e ative um ambiente virtual, se necessário, e instale as dependências:
 
+### Como testar
+- Clone o repositório
+- Instale as dependências (pip install -r requirements.txt)
+- Execute o servicos Flask (python run.py)
+- Teste os endpoints:
+- ** GettAll: http://localhost:5000/cotacoes
+- ** GettEspecífico: http://localhost:5000/cotacoes/<moeda>
+
+
+- 
 ```bash
 pip install -r requirements.txt
+
